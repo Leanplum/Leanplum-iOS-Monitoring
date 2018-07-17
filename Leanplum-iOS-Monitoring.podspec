@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Leanplum-iOS-Monitoring'
-  s.version = '0.0.9'
+  s.version = '2.1.0'
   s.summary = 'Supplementary Leanplum pod to provide crash monitoring support.'
   s.description = 'The Leanplum Monitoring pod helps monitor the performance and reliability of the Leanplum SDK.'
   s.homepage = 'https://www.leanplum.com'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/leanplum'
   s.platform = :ios, '8.0'
   s.requires_arc = true
-  s.source = { :http => 'https://github.com/Leanplum/Leanplum-iOS-Monitoring/releases/download/0.0.9/LeanplumSDKMonitoring.framework.zip' }
+  s.source = { :http => 'https://github.com/Leanplum/Leanplum-iOS-Monitoring/releases/download/2.1.0/LeanplumSDKMonitoring.framework.zip' }
   s.frameworks = 'UIKit'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.preserve_paths = 'LeanplumSDKMonitoring.framework'
